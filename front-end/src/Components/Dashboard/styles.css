@@ -1,0 +1,122 @@
+.dashboard-wrapper {
+  padding: 2rem;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.dashboard-wrapper nav {
+  background-color: #353535;
+  width: 100%;
+  box-shadow: 0 6 px 5px rgb(114, 113, 113);
+}
+
+.dashboard-wrapper nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-wrapper nav ul li {
+  margin-right: 1rem;
+  position: relative;
+}
+
+.dashboard-wrapper nav ul li button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  transition: all 0.3s;
+  background-color:  #d9b331;
+}
+
+.dashboard-wrapper nav ul li.selected button::after,
+.dashboard-wrapper nav ul li:hover button::after {
+  transform: scaleX(1);
+}
+
+.dashboard-wrapper nav ul li button {
+  background-color: transparent;
+  padding: 1rem 2rem;
+  color: #B4B4B4;
+  font-size: 18px;
+}
+
+.dashboard-wrapper .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.dashboard-wrapper h1 {
+  color: #d9b331;
+}
+
+.dashboard-wrapper input {
+  padding: 1rem;
+  width: 20%;
+  border: 0;
+  border-radius: 0.5rem;
+}
+
+.dashboard-wrapper .results-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.dashboard-wrapper .result-card {
+  width: 100%;
+  display: flex;
+  padding: 2rem 1rem;
+  flex-direction: column;
+  border-radius: 1.5rem;
+  background-color: #1d1d1d;
+  box-shadow: 0 0 5px #1d1d1d;
+  margin-bottom: 2rem;
+}
+
+.dashboard-wrapper .result-card h3 {
+  margin-bottom: 2rem;
+}
+
+
+.dashboard-wrapper .result-card p {
+  margin: 1rem 0;
+}
+
+.dashboard-wrapper .result-card .group-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.dashboard-wrapper .result-card .group-info .percentage-bar {
+  height: 1.7rem;
+  background-color: #d9b331;
+  max-width: 80%;
+  border-radius: 0.2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .dashboard-wrapper {
+    padding: 3em;
+  }
+
+  .dashboard-wrapper .result-card {
+    max-width: 30%;
+  }
+
+  .dashboard-wrapper p {
+    font-size: 1rem;
+
+  }
+}

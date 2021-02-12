@@ -1,0 +1,89 @@
+.home-container {
+  background: url('../../assets/img/watermark.svg') center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 100%;
+  padding: 2em;
+  height: 100vh;
+  opacity: 0;
+}
+
+.home-container header {
+  margin-bottom: 2em;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+}
+
+.home-container main p {
+  font-weight: 300;
+  margin: 1em 0;
+}
+
+
+.home-container footer {
+  position: absolute;
+  bottom: 2em;
+  left: 2em;
+}
+
+footer .social {
+  display: flex;
+  align-items: center;
+}
+
+.social .youtube {
+  margin: 0 1em 0 0.5em;
+}
+
+.social img {
+  width: 32px;
+}
+
+.twitter img {
+  width: 40px;
+}
+
+.twitch img {
+  width: 32px;
+  height: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .home-container {
+    padding: 6em;
+    background-position: center;
+  }
+
+  button {
+    font-size: 18px;
+  }
+
+  .home-container main {
+    margin-top: 12em;
+    width: 50%;
+  }
+
+  main h1 {
+    font-size: 42px;
+  }
+
+  main p {
+    margin: 2em 0 0.5em;
+    margin-top: 1em;
+    font-size: 32px;
+  }
+
+  .home-container footer {
+    bottom: 6em;
+    left: 6em;
+  }
+}

@@ -1,0 +1,52 @@
+const cat = [
+    {
+      id: '1',
+      games: [
+        { id: 'game-id-1', name: 'game 1' },
+        { id: 'game-id-2', name: 'game 2' },
+        { id: 'game-id-3', name: 'game 3' },
+        { id: 'game-id-4', name: 'game 4' },
+        { id: 'game-id-5', name: 'game 5' },
+      ],
+    },
+    {
+      id: '2',
+      games: [
+        { id: 'game-id-5', name: 'game 5' },
+        { id: 'game-id-6', name: 'game 6' },
+        { id: 'game-id-7', name: 'game 7' },
+        { id: 'game-id-8', name: 'game 8' },
+        { id: 'game-id-9', name: 'game 9' },
+      ],
+    },
+    {
+      id: '3',
+      games: [
+        { id: 'game-id-10', name: 'game 10' },
+        { id: 'game-id-11', name: 'game 11' },
+        { id: 'game-id-12', name: 'game 12' },
+        { id: 'game-id-13', name: 'game 13' },
+        { id: 'game-id-14', name: 'game 14' },
+      ],
+    },
+    {
+      id: '4',
+      games: [
+        { id: 'game-id-16', name: 'game 16' },
+        { id: 'game-id-17', name: 'game 17' },
+        { id: 'game-id-18', name: 'game 18' },
+        { id: 'game-id-19', name: 'game 19' },
+        { id: 'game-id-20', name: 'game 20' },
+      ],
+    },
+    {
+      id: '5',
+      games: [
+        { id: 'game-id-21', name: 'game 21' },
+        { id: 'game-id-22', name: 'game 22' },
+        { id: 'game-id-23', name: 'game 23' },
+        { id: 'game-id-24', name: 'game 24' },
+        { id: 'game-id-25', name: 'game 25' },
+      ],
+    },
+  ];
