@@ -1,5 +1,9 @@
 ### Projeto WEB 
 
+### Informações Gerais 
+
+Projeto desenvolvido em React no front-end e Java Servlets no backend. 
+
 ## Instalação 
 
 - Na pasta front-end: comando `yarn`
